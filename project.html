@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:rgb(85, 168, 227);  
+            margin: 0px;
+        }
+        *{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    background-color: rgb(13, 12, 15);
+}
+div a{
+    background-color: rgb(178, 27, 150);
+    color: black;
+    line-height: 30px;
+    font-size: 30px;
+    border-radius: 100px;
+    text-decoration: none;
+    
+}
+nav div{
+    font-size: 40px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-style: inherit;
+    color: rgb(21, 148, 212);
+    margin-top: 5PX;
+}
+nav ul{
+    display: flex;
+    line-height: 60PX;
+    font-size: 20px;
+}
+nav ul li{
+    margin: 0 25px;
+}
+nav ul li a{
+    color: rgb(178, 27, 150);
+    font-weight: bold;
+    transition: 0.5s all;
+}
+nav ul li a:hover{
+    color: rgb(55, 171, 126);
+    transform:  rotate(50deg); 
+}
+h1{
+    font-size: 55px;
+
+}
+.cs1{
+color: black;
+font-size: 25px;
+display: flex;
+}
+ div img{
+    display: flex;
+    justify-content:center;
+    }
+    P{
+        margin: 0 50px;
+    }
+.cs2{
+ display: flex;
+ color: black;
+font-size: 25px;
+    }
+    .cs3{
+color: black;
+font-size: 25px;
+display: flex;
+    }
+    .cs4{
+color: black;
+font-size: 25px;
+display: flex;
+    }
+    </style>
+</head>
+<body>
+    <nav>
+        <div>PORTFOLIO</div>
+        <ul>
+            <li><a href="portfolio.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="skills.html">SKILLS</a></li>
+            <li><a href="project.html">PROJECT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+    <br>
+    <h1 style="text-align: center;">Prediction of Dynamic Price of Ride-On-Demand Services Using Linear Regression</h1>
+    <img src="https://d258lu9myqkejp.cloudfront.net/attachment_images/74ceecb68daba48a0c16fea04e9496ca761c137c210b919d069f2a34a563a05bScreenshot%202022-06-10%20at%2001-04-23%20Golden%20Brick.png" 
+    style="height: 400px; width: 600px; padding: 50px; margin-left: 420px;">
+    <hr><br>
+    <h2 style="font-size: 30px;">ABSTRACT:</h2><br>
+    <div class="cs1">
+    <p> Ride-on-demand (RoD) services are becoming more and more common, such as Uber and OLA cabs. To help both drivers and customers,
+       RoD services use dynamic pricing to balance supply and demand in an attempt to increase service quality.
+       Dynamic prices, however, often generate problems for passengers: often "unpredictable" prices prevent them from easily making fast decisions. 
+       In order to address this problem, it is therefore important to give passengers more detail, and forecasting dynamic prices is a feasible solution.
+       Taking the Rapido dataset as an example in this, we focus on the estimation of dynamic prices, forecasting the price for each individual passenger order. <br>
+       <br>Keywords: Machine learning, Prediction, Linear regression, Target, Correlation, Ride-on-demand services, and Dynamic price. 
+    </p>
+    <img src="/images/piname.jpg" style="height: 420px; width: 600px; padding:10px; margin-left: 30px;">
+</div>
+    <hr><br>
+<h2 style="font-size: 30px; margin: 0 25px;">RELATED WORK:</h2> <br>
+<div class="cs2">
+    <p>
+        The relationship between age and language has been studied as an example of one of these kinds of research.  The model of Linear Regression can also be used to predict the age of the author of a text. 
+        Three separate data genres are used simultaneously to investigate the age prediction of the author: blogs, telephone conversations and online forum messages.   The efficient features include both stylistic as well as content-oriented ones, after careful examination of different data characteristics.
+         These characteristics are considered to be the main features that are going to be useful in age prediction. Correlations up to 0.74 and mean absolute errors between 4.1 and 6.8 years are obtained. 
+    </p>
+    <img src="/images/pi3name.jpg" style="height: 420px; width: 600px; padding:10px; margin-left: 30px;">
+    </div><hr><br>
+<h2 style="font-size: 30px; margin: 0 25px;">IMPLEMENTATION AND ANALYSIS: </h2><br>
+<div class="cs3">
+<p>In Rapido Dataset's review and implementation process, we divide the whole process into three parts. <br>
+    1. Exploratory Data Analysis (EDA) - It refers to the essential method of conducting initial data investigations in order to uncover patterns, detect anomalies, and use summary statistics and graphical representations to verify conclusions. <br>
+    2. Metric Calculation– It is basically a calculation based question, “What is the average duration between the 1st trip and the 2nd trip of customers?” Only those customers who have taken more than one trip are included here. <br>
+    3. Model Building– It refers to building a model to predict trip fare using travel distance and travel time, measuring the accuracy of the model and using the model to predict trip fare for a trip with travel distance of 3.5 KMs and travel time of 15 minutes. <br>
+</p>
+<img src="/images/pi2name.jpg" style="height: 420px; width: 600px; padding:10px; margin-left: 40px;">
+    </div>
+    <hr><br>
+    <h2 style="font-size: 30px; margin: 0 25px;">CONCLUSION AND FUTURE WORK : </h2><br>
+    <div class="cs4">
+        <p>Rapido is a Ride-On-Demand (ROD) service that uses dynamic pricing to balance supply and demand in an attempt to increase service quality.
+             The research focuses primarily on exploratory data analysis (EDA), metric calculation, and development of model. The dependent algorithm variable turned out to be 'ride fare,' while 'travel distance' and 'travel time' are the independent variables. 
+             The Linear Regression Model for prediction of dynamic price of trips is providing an efficiency of 93.40%.
+              It is better suited for the prediction of target variable which is trip fare, and it performs very well. 
+              Further this workcan be carried out using different machine learning algorithms and techniques in order to get higher efficiency and lower errors.
+        </p>
+        <img src="/images/pi4name.jpg" style="height: 420px; width: 600px; padding:10px; margin-left: 50px;">
+    </div>
+    <hr><br>
+    </body>
+</html>

@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    background-color: rgb(13, 12, 15);
+}
+div p{
+font-size: 40px;
+text-align: left;
+margin: 250px 250px;
+font-style: oblique;
+}
+div a{
+    background-color: rgb(178, 27, 150);
+    color: black;
+    line-height: 20px;
+    font-size: 30px;
+    border-radius: 100px;
+    padding: 5px;
+    text-decoration: none;
+}
+nav div{
+    font-size: 40px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-style: inherit;
+    color: rgb(21, 148, 212);
+    margin-top: 5PX;
+}
+nav ul{
+    display: flex;
+    line-height: 60PX;
+    font-size: 20px;
+}
+nav ul li{
+    margin: 0 25px;
+}
+nav ul li a{
+    color: rgb(178, 27, 150);
+    font-weight: bold;
+    transition: 0.5s all;
+}
+nav ul li a:hover{
+    color: rgb(55, 171, 126);
+    transform:  rotate(50deg); 
+ 
+}
+body{
+    background-image: url(https://wallpaperaccess.com/full/3792708.jpg);
+    background-size: cover;
+}
+nav img{
+    display: flex;
+    height: 50%;
+    width: 25%;
+    bottom: 20%;
+    right: 200px;
+    border-radius:250px;
+    position: absolute;
+}

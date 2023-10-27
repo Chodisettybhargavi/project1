@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-color:rgb(85, 168, 227);  
+            margin: 0px;
+        }
+        *{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    background-color: rgb(13, 12, 15);
+}
+div a{
+    background-color: rgb(178, 27, 150);
+    color: black;
+    line-height: 30px;
+    font-size: 30px;
+    border-radius: 100px;
+    text-decoration: none;
+    
+}
+nav div{
+    font-size: 40px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-style: inherit;
+    color: rgb(21, 148, 212);
+    margin-top: 5PX;
+}
+nav ul{
+    display: flex;
+    line-height: 60PX;
+    font-size: 20px;
+}
+nav ul li{
+    margin: 0 25px;
+}
+nav ul li a{
+    color: rgb(178, 27, 150);
+    font-weight: bold;
+    transition: 0.5s all;
+}
+nav ul li a:hover{
+    color: rgb(55, 171, 126);
+    transform:  rotate(50deg); 
+}
+body{
+    background-color:rgb(21, 148, 212); 
+}
+.contact{
+    width:350px;
+    background-color:rgb(12, 136, 189); 
+    box-shadow:0 0 20px 0 #060506;
+    position:absolute;
+    margin:80px;
+    padding:30px;
+}
+form{
+    margin:10px;
+    text-align: center;
+}
+.input-feild{
+    width:300px;
+    height:30px;
+    margin-top:10px;
+    padding-left:10px;
+    padding-right:10px;
+    border:1px solid #0a0707;
+    border-radius:14px;
+    outline:none;
+
+}
+.one{
+    border-radius:30px;
+    color:rgb(8, 8, 8);
+    margin-top:20px;
+    padding:10px;
+    background-color:rgb(124, 9, 117);
+    font-size:17px;
+    border:none;
+    cursor:pointer;
+    text-align: center;
+}
+h1{
+
+    text-align: center;
+   font-size: 40px;
+}
+p{
+    text-align: center;
+    margin:200px;
+    padding-left:500px;
+    font-style: italic;
+    font-size: 30px;
+    color:rgb(5, 5, 5);
+}
+    </style>
+</head>
+<body>
+    <nav>
+        <div>PORTFOLIO</div>
+        <ul>
+            <li><a href="portfolio.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="skills.html">SKILLS</a></li>
+            <li><a href="project.html">PROJECT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+    <br>
+    <h1> Contact Details</h1>
+    <div class="contact">
+        <form>
+            <input type="text" class="input-feild" placeholder="Enter your name"><br><br>
+            <input type="text" class="input-feild" placeholder="Enter your phone number"><br><br>
+            <input type="text" class="input-feild" placeholder="Enter your email"><br><br>
+            <input type="text" class="input-feild" placeholder="Enter your Address"><br><br>
+            <button class="one">submit</button>
+        </form>
+    </div>  
+    <div>
+        <p>
+            Please contact me if you have any querys.....? <br><br>
+            Email:chodesettibhargavi@gmail.com<br><br>
+            phone number: 8247496652
+        </p>
+    </div>
+</body>
+</html>

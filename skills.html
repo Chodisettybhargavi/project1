@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-color:rgb(85, 168, 227);  
+            margin: 0px;
+        }
+ *{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    background-color: rgb(13, 12, 15);
+}
+div a{
+    background-color: rgb(178, 27, 150);
+    color: black;
+    line-height: 30px;
+    font-size: 30px;
+    border-radius: 100px;
+    text-decoration: none;
+    
+}
+nav div{
+    font-size: 40px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-style: inherit;
+    color: rgb(21, 148, 212);
+    margin-top: 5PX;
+}
+nav ul{
+    display: flex;
+    line-height: 60PX;
+    font-size: 20px;
+}
+nav ul li{
+    margin: 0 25px;
+}
+nav ul li a{
+    color: rgb(178, 27, 150);
+    font-weight: bold;
+    transition: 0.5s all;
+}
+nav ul li a:hover{
+    color: rgb(55, 171, 126);
+    transform:  rotate(50deg); 
+}
+p{
+    margin: 0 50px;
+}
+.cs1{
+    display: flex;
+}
+.cs2{
+    display: flex;
+}
+  </style>
+</head>
+<body>
+    <nav>
+        <div>PORTFOLIO</div>
+        <ul>
+            <li><a href="portfolio.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="skills.html">SKILLS</a></li>
+            <li><a href="project.html">PROJECT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+    <br>
+    <h1 style="text-align: center; font-size: 50px;">SKILLS</h1>
+    <h1>FRONTEND:(HTML,CSS)</h1>  
+    <div class="cs1">
+    <p style="font-size: 30px;">A front-end web developer is responsible for implementing visual elements that users see and interact with in a web application.
+         They are usually supported by back-end web developers, who are responsible for server-side application logic and integration of the work front-end developers do.
+         The part of a website that the user interacts with directly is termed the front end. 
+         It is also referred to as the 'client side of the application.
+         It includes everything that users experience directly: text colors and styles, images, graphs and tables, buttons, colors, and a navigation menu.
+    </p>
+    <img src="data:image/jpeg;base64,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
+    RAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERB//Z" style="height: 250px; width: 360px; padding:10px; margin-left: 10px">
+</div>
+    <hr><br>
+    <h1 style="text-align: right;">BACKEND:(JAVA,C,PYTHON)</h1>
+    <div class="cs2">
+        <img src="https://img.freepik.com/free-vector/backend-technology-concept-with-glowing-lines-background_1017-28405.jpg" style="height: 250px; width: 360px; padding:10px; margin-left: 10px;">
+    <p style="font-size: 30px;">A back-end web developer is responsible for server-side web application logic and integration of the work front-end developers do.
+         Back-end developers are usually write the web services and APIs used by front-end developers and mobile application developers.
+         Backend developer responsibilities include creating, maintaining, testing, and debugging the entire back end of an application or system.
+        This includes the core application logic, databases, data and application integration, API, and other processes taking place behind the scenes.
+    </p>
+</div>
+</body>
+</html>
